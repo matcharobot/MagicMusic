@@ -1,11 +1,10 @@
 # MagicMusic
 
-## 简介
+## DESCRIPTION
 简要描述项目的目的和功能。
 
-## 目录
-- [安装](#安装)
-- [使用说明](#使用说明)
+## MENU
+- [Get Started](#Get Started)
 - [贡献指南](#贡献指南)
 - [许可](#许可)
 - [作者](#作者)
@@ -16,6 +15,11 @@
 
 ## Get Started
 ### Installation
+```shell
+
+
+```
+
 ### Usage
 如何使用项目，包括示例代码和截图。
 
