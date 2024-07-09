@@ -32,7 +32,7 @@ apt install ffmpeg
 ```
 
 ### Usage
-在终端运行`python run.py --description "对所需歌曲的描述"`
+在终端运行`python MetaGPT/magicmusic/run.py --description "对所需歌曲的描述"`
 
 ## 贡献指南
 如何贡献代码或报告问题。
