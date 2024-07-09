@@ -4,7 +4,7 @@
 简要描述项目的目的和功能。
 
 ## MENU
-- [Get Started](#Get Started)
+- [Get Started](#get-started)
 - [贡献指南](#贡献指南)
 - [许可](#许可)
 - [作者](#作者)
