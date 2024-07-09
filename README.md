@@ -32,7 +32,7 @@ apt install ffmpeg
 ```
 
 ### Usage
-如何使用项目，包括示例代码和截图。
+在终端运行`python run.py --description "对所需歌曲的描述"`
 
 ## 贡献指南
 如何贡献代码或报告问题。
