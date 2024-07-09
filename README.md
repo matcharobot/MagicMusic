@@ -15,10 +15,20 @@
 
 ## Get Started
 ### Installation
-我们将MM分为两部分进行运行
+使用M4Singer作为人声合成器
+
 M4Singer requires Python 3.8, torch 2.2.2. Please refer to [M4Singer](https://github.com/M4Singer/M4Singer) to install the M4Singer.
+
+在3080上配置运行M4Singer的环境，执行`pip install -v -r requirementsforM4.txt`
+
+借助MetaGPT进行多智能体的搭建，安装请参考[MetaGPT](https://github.com/geekan/MetaGPT)
+
+完成安装后只需要保留`config,metagpt`两个子文件夹，并创建`magicmusic`子文件夹，将本代码放入其中
+
+通过audiocraft为人声添加音乐，安装可以使用如下命令行
 ```shell
-pip install -v -r requirements.txt
+pip install git+https://github.com/facebookresearch/audiocraft.git
+apt install ffmpeg
 ```
 
 ### Usage
