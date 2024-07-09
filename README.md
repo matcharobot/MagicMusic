@@ -10,14 +10,15 @@
 - [作者](#作者)
 - [致谢](#致谢)
 - [版本历史](#版本历史)
-- [常见问题](#常见问题)
+- [FAQ](#faq)
 - [附加资源](#附加资源)
 
 ## Get Started
 ### Installation
+我们将MM分为两部分进行运行
+M4Singer requires Python 3.8, torch 2.2.2. Please refer to [M4Singer](https://github.com/M4Singer/M4Singer) to install the M4Singer.
 ```shell
-
-
+pip install -v -r requirements.txt
 ```
 
 ### Usage
@@ -38,7 +39,7 @@
 ## 版本历史
 项目的版本变化和更新日志。
 
-## 常见问题
+## FAQ
 一些常见问题和解答。
 
 ## 附加资源
