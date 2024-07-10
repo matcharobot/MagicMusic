@@ -60,7 +60,7 @@ Main paths after configuration
         > hunmanvoice.wav
     > inference
         > m4singer
-            > base_svs_infer.py #有两处修改
+            > base_svs_infer.py #Two modifications
 > MetaGPT
     > config
     > logs
