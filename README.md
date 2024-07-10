@@ -1,61 +1,59 @@
 # MagicMusic
 
 ## DESCRIPTION
-借助metagpt搭建多智能体平台进行歌曲生成，在原有基础上添加了4个role及6个action。
-通过用户描述选择歌曲风格及乐器、生成歌词并合成最终歌曲
-借助audio实现旋律生成，借助M4singer进行singing voice synises
+MagicMusic is a multi-agent platform built with MetaGPT for song generation, with the addition of 4 roles and 6 actions to the original setup. Users can choose the song style and instruments based on descriptions, generate lyrics, and synthesize the final song. Melody generation is achieved using audio, and singing voice synthesis is done using M4Singer.
 
 ## MENU
 - [Get Started](#get-started)
-- [贡献指南](#贡献指南)
-- [许可](#许可)
-- [作者](#作者)
-- [致谢](#致谢)
-- [版本历史](#版本历史)
+- [Contribution Guide](#contribution-guide)
+- [License](#license)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgments)
+- [Version History](#version-history)
 - [FAQ](#faq)
-- [附录](#附录)
+- [Appendix](#appendix)
 
 ## Get Started
 ### Installation
-使用M4Singer作为人声合成器
+Using M4Singer as the voice synthesizer
 
-M4Singer requires Python 3.8, torch 2.2.2. Please refer to [M4Singer](https://github.com/M4Singer/M4Singer) to install the M4Singer.
+M4Singer requires Python 3.8, torch 2.2.2. Please refer to [M4Singer](https://github.com/M4Singer/M4Singer) to install M4Singer.
 
-在3080上配置运行M4Singer的环境，执行`pip install -v -r requirementsforM4.txt`
+Set up the environment to run M4Singer on a 3080 by executing `pip install -v -r requirementsforM4.txt`.
 
-借助MetaGPT进行多智能体的搭建，安装请参考[MetaGPT](https://github.com/geekan/MetaGPT)
+Build the multi-agent platform using MetaGPT. For installation, please refer to [MetaGPT](https://github.com/geekan/MetaGPT).
 
-完成安装后只需要保留`config,metagpt`两个子文件夹，并创建`magicmusic`子文件夹，将本代码放入其中
+After completing the installation, keep only the `config` and `metagpt` subfolders, create a `magicmusic` subfolder, and place this code inside it.
 
-通过audiocraft为人声添加音乐，安装可以使用如下命令行
+Add music to the vocals using audiocraft, which can be installed using the following command line:
 ```shell
 pip install git+https://github.com/facebookresearch/audiocraft.git
 apt install ffmpeg
 ```
 
 ### Usage
-在终端运行`python MetaGPT/magicmusic/run.py --description "对所需歌曲的描述"`
+Run python MetaGPT/magicmusic/run.py --description "Description of the desired song" in the terminal.
 
-## 贡献指南
-如何贡献代码或报告问题。
+## Contribution Guide
+How to contribute code or report issues.
 
-## 许可
-项目的许可类型。
+## License
+Type of project license.
 
-## 作者
-主要贡献者及其联系方式。
+## Authors
+Main contributors and their contact information.
 
-## 致谢
-感谢提供帮助和支持的人或组织。
+## Acknowledgments
+Thanks to the people or organizations that provided help and support.
 
-## 版本历史
-项目的版本变化和更新日志。
+## Version History
+Changes and updates log of the project versions.
 
 ## FAQ
-一些常见问题和解答。
+Some frequently asked questions and answers.
 
-## 附录
-配置完成后部分主要路径
+## Appendix
+Main paths after configuration
 ```shell
 > code
     > infer_out
