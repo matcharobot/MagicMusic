@@ -1,7 +1,9 @@
 # MagicMusic
 
 ## DESCRIPTION
-简要描述项目的目的和功能。
+借助metagpt搭建多智能体平台进行歌曲生成，在原有基础上添加了4个role及6个action。
+通过用户描述选择歌曲风格及乐器、生成歌词并合成最终歌曲
+借助audio实现旋律生成，借助M4singer进行singing voice synises
 
 ## MENU
 - [Get Started](#get-started)
@@ -11,7 +13,7 @@
 - [致谢](#致谢)
 - [版本历史](#版本历史)
 - [FAQ](#faq)
-- [附加资源](#附加资源)
+- [附录](#附录)
 
 ## Get Started
 ### Installation
@@ -52,5 +54,30 @@ apt install ffmpeg
 ## FAQ
 一些常见问题和解答。
 
-## 附加资源
-项目相关的参考资料和文档链接。
+## 附录
+配置完成后部分主要路径
+```shell
+> code
+    > infer_out
+        > hunmanvoice.wav
+    > inference
+        > m4singer
+            > base_svs_infer.py #有两处修改
+> MetaGPT
+    > config
+    > logs
+    > magicmusic
+        > part1.py
+        > part2.py
+        > part3.py
+        > part4.py
+        > part5.py
+        > run.py
+        > sheet.txt
+    > metagpt
+    > workspace
+> music
+    > generated.wav
+    > harmonic.wav
+    > merged.wav
+```
